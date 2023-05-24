@@ -65,6 +65,5 @@ function clearAll() {
         document.getElementById('sound1').play();
     }
     musicOn = true
-
 }
 
