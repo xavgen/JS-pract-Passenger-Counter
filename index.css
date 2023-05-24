@@ -1,0 +1,65 @@
+body {
+    background-image: url("station.jpg");
+    background-size: cover;
+    font-family: monospace;
+    font-weight: bold;
+    text-align: center;
+    color: #0f337a;
+    height: 10em;
+    position: relative;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+	text-shadow: -1px 1px 1px #ffffff;
+}
+
+h1 {
+    font-family: monospace;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+}
+
+button {
+    font-family: monospace;
+    border: 1px solid #0f337a;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 150px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    text-shadow: -1px 1px 1px #0f337a;
+}
+
+#increment-btn {
+    background: #ea825f;
+}
+
+#decrease-btn {
+    background-color: #958df1;
+}
+
+#save-btn {
+    background: #53b567;
+}
+
+#clear-btn {
+    background: #57b1e6;
+}
+
+#music-el {
+    background: #9f9f9f;
+}
