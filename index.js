@@ -53,7 +53,6 @@ function save() {
         document.getElementById('sound1').play();
     }
     musicOn = true
-
 }
 
 function clearAll() {
