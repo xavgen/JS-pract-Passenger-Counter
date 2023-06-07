@@ -40,15 +40,18 @@ function decrease() {
 
 function save() {
     // 2. Create a variable that contains both the count and the dash separator, i.e. "12 - "
-    let add = count + " - "
-    total += count
+    
+    if (count != 0) {
+        let add = count + " - "
+        total += count
 
-    // 3. Render the variable in the saveEl using innerText
-    // NB: Make sure to not delete the existing content of the paragraph
-    saveEl.textContent += add
-    totalEl.textContent = "Total Entered: " + total
-    count = 0
-    countEl.textContent = 0
+        // 3. Render the variable in the saveEl using innerText
+        // NB: Make sure to not delete the existing content of the paragraph
+        saveEl.textContent += add
+        totalEl.textContent = "Total Entered: " + total
+        count = 0
+        countEl.textContent = 0
+    }
     if (musicOn == false) {
         document.getElementById('sound1').play();
     }
